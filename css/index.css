@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../img/haikei.jpg);
+    text-align: center;
+    font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴProN", Meiryo, "MS Pゴシック", sans-serif;
+}
+
+h1 {
+    margin-top: 60px;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.a {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.b {
+    margin-left: 430px;
+    margin-top: -35px;
+    font-size: 30px;
+}
+
+.img-me {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: right;
+}
+
+a.home {
+    display: block;
+    position: relative;
+    width: 160px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #FBC02D;
+    background: #FBC02D;
+    overflow: hidden;
+    z-index: 1 !important;
+}
+
+a.home:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transition: 0.3s;
+    z-index: -1;
+}
+
+a.home:hover {
+    color: #da3c41;
+}
+
+a.home:hover:after {
+    height: 250%;
+    opacity: 1;
+}
+
+a.home:active:after {
+    height: 350%;
+    opacity: 1;
+}
+
+a.profile {
+    display: block;
+    position: relative;
+    width: 160px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #FBC02D;
+    background: #FBC02D;
+    overflow: hidden;
+    z-index: 1 !important;
+}
+
+a.profile:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transition: 0.3s;
+    z-index: -1;
+}
+
+a.profile:hover {
+    color: #da3c41;
+}
+
+a.profile:hover:after {
+    height: 250%;
+    opacity: 1;
+}
+
+a.rpofile:active:after {
+    height: 350%;
+    opacity: 1;
+}
+
+a.other {
+    display: block;
+    position: relative;
+    width: 160px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #FBC02D;
+    background: #FBC02D;
+    overflow: hidden;
+    z-index: 1 !important;
+}
+
+a.other:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0;
+    width: 100%;
+    background: #fff;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transition: 0.3s;
+    z-index: -1;
+}
+
+a.other:hover {
+    color: #da3c41;
+}
+
+a.other:hover:after {
+    height: 250%;
+    opacity: 1;
+}
+
+a.other:active:after {
+    height: 350%;
+    opacity: 1;
+}
